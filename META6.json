@@ -1,0 +1,31 @@
+{
+  "name": "Tinky::Declare",
+  "version": "0.0.1",
+  "auth": "github:jonathanstowe",
+  "api": "1.0",
+  "description": "Create Tinky machines in a more declarative fashion",
+  "raku": "6.d",
+  "resources": [
+  ],
+  "tags": [
+     "tinky",
+     "workflow",
+     "declarative"
+  ],
+  "depends": [
+     "Tinky"
+  ],
+  "source-url": "https://github.com/jonathanstowe/Tinky-Declare.git",
+  "provides": {
+     "Tinky::Declare" : "lib/Tinky/Declare.rakumod"
+  },
+  "meta-version": "1",
+  "license": "Artistic-2.0",
+  "support": {
+    "email": "jns+gh@gellyfish.co.uk",
+    "source": "https://github.com/jonathanstowe/Tinky-Declare.git"
+  },
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ]
+}

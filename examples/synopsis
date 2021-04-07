@@ -1,12 +1,5 @@
-# Tinky::Declare
+#!/usr/bin/env raku
 
-Declarative creation of Tinky machines
-
-## Synopsis
-
-This is the functional equivalent to the [Tinky synopsis](https://github.com/jonathanstowe/Tinky/blob/master/README.md#synopsis):
-
-```raku
 use Tinky;
 use Tinky::Declare;
 
@@ -71,31 +64,3 @@ $ticket-a.next-states>>.name.say;
 $ticket-a.state = $workflow.state('stalled');
 
 $ticket-a.reject;
-```
-
-## Description
-
-This provides a declarative interface to create [Tinky](https://github.com/jonathanstowe/Tinky) 'workflow' objects.
-You probably want to familiarise yourself with the [Tinky documentation](https://github.com/jonathanstowe/Tinky/blob/master/Documentation.md)
-to get an idea of what is going on under the hood.
-
-Essentially it creates a small DSL that allows you to create a [Tinky::Workflow](https://github.com/jonathanstowe/Tinky/blob/master/Documentation.md#class-tinkyworkflow)
-populated with the [State](https://github.com/jonathanstowe/Tinky/blob/master/Documentation.md#class-tinkystate) and [Transition](https://github.com/jonathanstowe/Tinky/blob/master/Documentation.md#class-tinkystate)
-objects that describe the workflow.  Because the underlying objects are created for you only those features of Tinky that don't require
-sub-classing are exposed, such as tapping the supplies for leaving and entering a state (or all states,) the application of a transition (or all transitions,)
-and application of the workflow to an object, as well as [validation callbacks](https://github.com/jonathanstowe/Tinky/blob/master/Documentation.md#subset-validatecallback)
-for all of those events.
-
-## Installation
-
-## Support
-
-## Licence & Copyright
-
-This is free software.
-
-Please see [LICENCE](LICENCE) for the details.
-
-© Jonathan Stowe 2021
-
-
