@@ -2,6 +2,8 @@
 
 Declarative creation of Tinky machines
 
+![Build Status](https://github.com/jonathanstowe/Tinky-Declare/workflows/CI/badge.svg)
+
 ## Synopsis
 
 This is the functional equivalent to the [Tinky synopsis](https://github.com/jonathanstowe/Tinky/blob/master/README.md#synopsis):
@@ -73,6 +75,8 @@ $ticket-a.state = $workflow.state('stalled');
 $ticket-a.reject;
 ```
 
+There are further [examples in the distribution](examples).
+
 ## Description
 
 This provides a declarative interface to create [Tinky](https://github.com/jonathanstowe/Tinky) 'workflow' objects.
@@ -86,6 +90,8 @@ sub-classing are exposed, such as tapping the supplies for leaving and entering 
 and application of the workflow to an object, as well as [validation callbacks](https://github.com/jonathanstowe/Tinky/blob/master/Documentation.md#subset-validatecallback)
 for all of those events.
 
+The full documentation is [in the distribution](Documentation.md).
+
 ## Installation
 
 ## Support
@@ -97,5 +103,3 @@ This is free software.
 Please see [LICENCE](LICENCE) for the details.
 
 © Jonathan Stowe 2021
-
-
