@@ -94,7 +94,18 @@ The full documentation is [in the distribution](Documentation.md).
 
 ## Installation
 
+Assuming that you have a working installation of Rakudo you should be able to install this with *zef* :
+
+    zef install Tinky::Declare
+
+    # Or from a checkout of this repository
+
+    zef install .
+
 ## Support
+
+Hopefully this will prove useful, if only as an inspiration to make something better.
+Please post any suggestions/fixes/patches at [Github](https://github.com/jonathanstowe/Tinky-Declare/issues)
 
 ## Licence & Copyright
 

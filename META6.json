@@ -4,7 +4,7 @@
   "auth": "github:jonathanstowe",
   "api": "1.0",
   "description": "Create Tinky machines in a more declarative fashion",
-  "raku": "6.d",
+  "raku": "6.*",
   "resources": [
   ],
   "tags": [

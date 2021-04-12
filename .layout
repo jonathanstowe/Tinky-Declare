@@ -1,0 +1,89 @@
+{
+  "children": [
+    {
+      "type": "file",
+      "name": "META6.json"
+    },
+    {
+      "name": "Changes",
+      "type": "file"
+    },
+    {
+      "purpose": null,
+      "type": "directory",
+      "children": [
+        {
+          "name": "synopsis",
+          "type": "file"
+        },
+        {
+          "name": "encode-files",
+          "type": "file"
+        }
+      ],
+      "name": "examples"
+    },
+    {
+      "name": "LICENCE",
+      "type": "file"
+    },
+    {
+      "type": "directory",
+      "children": [
+        {
+          "name": "010-use.t",
+          "type": "file"
+        },
+        {
+          "type": "file",
+          "name": "030-state.t"
+        },
+        {
+          "name": "100-synopsis.t",
+          "type": "file"
+        },
+        {
+          "name": "001-meta.t",
+          "type": "file"
+        },
+        {
+          "type": "file",
+          "name": "040-transition.t"
+        },
+        {
+          "type": "file",
+          "name": "020-workflow.t"
+        }
+      ],
+      "name": "t",
+      "purpose": null
+    },
+    {
+      "children": [
+        {
+          "purpose": null,
+          "name": "Tinky",
+          "children": [
+            {
+              "name": "Declare.rakumod",
+              "type": "file"
+            }
+          ],
+          "type": "directory"
+        }
+      ],
+      "name": "lib",
+      "purpose": null,
+      "type": "directory"
+    },
+    {
+      "type": "file",
+      "name": "Documentation.md"
+    },
+    {
+      "name": "README.md",
+      "type": "file"
+    }
+  ],
+  "type": "layout"
+}
